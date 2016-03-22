@@ -1,0 +1,136 @@
+
+body {
+    background-color:#DDDDDD;
+    font-family: 微软雅黑,  serif;
+    font-size : 1em;
+    color : #000000;
+    text-indent: 2em
+
+}
+
+ul.ul2 {
+
+    background-color:#444444;
+
+}
+
+a.daohang{
+    color:white;
+    text-decoration:none;
+
+}
+
+li.pos_fixed1{
+    position:fixed;
+    top:50px;
+    right:15px;
+}
+
+li.pos_fixed2{
+    position:fixed;
+    top:50px;
+    right:115px;
+}
+
+li.pos_fixed3{
+    position:fixed;
+    top:50px;
+    right:215px;
+}
+
+li.pos_fixed4{
+    position:fixed;
+    top:50px;
+    right:315px;
+}
+
+p{
+    text-indent: 2em
+}
+
+img.pic{
+    position: relative;
+    left: 30px;
+    top: 20px
+}
+
+div
+{
+    background-color: #FFFFFF;
+    text-indent: 2em;
+}
+
+h3{
+    color:#888888
+}
+
+p.author {
+    color:#AAAAAA;
+    word-wrap:break-word;
+
+}
+
+.wrap{
+    margin-top:10px;
+}
+
+.wrap li{
+    padding: 20px 10px;/*上下、左右内边距*/
+    width: 180px;
+    height:180px;
+    border: 1px solid #E6E6E6;
+    margin: 20px 50px;/*上下、左右外边距*/
+    text-align:center;/*文本对齐方式*/
+}
+
+.wrap li p{
+    color:#666;  text-align:center;
+}
+
+table, td, th
+{
+    border:1px solid #AAAAAA;
+    margin:0 30px;
+}
+
+tr.yanse1
+{
+    background-color:#000000;
+    color:white;
+}
+
+.yanse2
+{
+    background-color:#AAAAAA;
+    color:black;/*字的颜色*/
+}
+
+.td1
+{
+    width:400px;
+}
+
+.aa{
+    width:1500px;
+    padding-bottom:20px;
+    padding-top:20px;
+    text-align:center;
+}
+
+.aa p{
+    color:#AAAAAA;
+}
+
+#submit{
+    background-color:#0000FF;
+    color:white;
+    font-weight:bolder;
+}
+
+ul.ul3
+{
+    text-align:center;
+    background-color:#000000;
+    padding: 20px 150px;
+    color:white;
+}
