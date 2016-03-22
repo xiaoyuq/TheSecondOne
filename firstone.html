@@ -118,35 +118,35 @@
 
 <div class="aa">
 
-    请输入邮箱地址：<label>
+    请输入邮箱地址：<label for="select_k1">
     <input/>
 </label><br/>
    <p> 邮箱地址请按格式输入</p>
-    请输入密码：<label>
-    <input/><br/>
+    请输入密码：<label for="psw">
+    <input name="psw" id="psw"/><br/>
 </label>
-    请重复输入密码<label>
+    请重复输入密码<label for="select_k1">
     <input/>
 </label><br/>
     <p>密码为6-16位英文数字<br/></p>
-    <label>
-        <input name="usertype" type="radio"/>
+    <label for="usertype">
+        <input name="usertype" id="usertype" type="radio"/>
     </label>
-    男 <label>
-    <input name="usertype" type="radio"/>
+    男 <label for="usertype1">
+    <input name="usertype" id="usertype1"  type="radio"/>
 </label>女<br/>
     城市<label for="select_k1"></label><select name="select" id="select_k1" class="xla_k">
     <option value="北京">北京</option><!-- 下拉框的选择 -->
     <option value="上海">上海</option>
     <option value="广州">广州</option>
 </select><br/>
-    爱好：<label><input type="checkbox" name="check">运动</label><!--打勾勾的选项 -->
-    <label><input type="checkbox" name="check">艺术</label>
-    <label><input type="checkbox" name="check">科学</label><br/>
-    个人描述<label>
-    <textarea name="a" style="width:200px;height:80px;">多行输入</textarea>
+    爱好：<label for="check1"><input type="checkbox" name="check" id="check1">运动</label><!--打勾勾的选项 -->
+    <label for="check2"><input type="checkbox" name="check" id="check2">艺术</label>
+    <label for="check3"><input type="checkbox" name="check" id="check3">科学</label><br/>
+    个人描述<label for="aaa">
+    <textarea name="a"  id="aaa" style="width:200px;height:80px;">多行输入</textarea>
 </label><br/>
-    <input id ="submit" type="submit" value="确认提交" style="width:1000px; height: 40px;" color="#0000FF">
+    <input id ="submit" name="submit" type="submit" value="确认提交" style="width:1000px; height: 40px;" color="#0000FF">
 </div>
 </div>
 <ul class="ul3">
